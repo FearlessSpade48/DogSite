@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+body {
+    background-color: #fefefe;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.card {
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 20px #770101;
+    margin: 16px;
+    padding: 16px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    padding: 8px;
+}
